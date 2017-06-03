@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+    
+    <RelativeLayout 
+        android:id="@+id/edit_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar">
+        
+        <Button
+            android:id="@+id/edit_back_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:background="@drawable/title_btn_back"
+            android:text="@string/fp_edit_title_back"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="@string/fp_edit_title" />
+        
+    </RelativeLayout>
+    
+  	<LinearLayout
+        android:id="@+id/edit_rename_layout" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="25dp"
+	    android:layout_below="@+id/edit_top_layout"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" >     
+
+	   	<com.eshare.fplock.EditTextWithDel
+	   	    android:id="@+id/fp_edit_rename"
+	   	    android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"
+	    	android:textColor="#000"
+	   		android:textSize="20sp"
+	    	android:layout_marginLeft="15dp"
+	    	android:layout_marginRight="15dp"
+	    	android:singleLine="true"
+	    	android:background="@drawable/login_editbox"
+	    	android:imeOptions="actionDone" />	  
+	</LinearLayout>
+	
+  	<Button
+		android:id="@+id/fp_rename"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="45dp"
+		android:layout_marginRight="45dp"
+		android:layout_marginTop="15dp"
+		android:background="@drawable/btn_style_green"
+		android:textColor="#fff"
+		android:textSize="18sp"
+		android:text="@string/fp_edit_rename" />
+	
+	<Button
+	    android:id="@+id/fp_delete" 
+		android:layout_width="fill_parent" 
+ 		android:layout_height="wrap_content"
+   		android:layout_marginTop="40dp"
+   		android:layout_marginRight="45dp"
+   		android:layout_marginLeft="45dp"
+  		android:textSize="18sp"		
+		android:textColor="#fff"
+		android:layout_gravity="center"
+		android:background="@drawable/btn_style_red"
+		android:text="@string/fp_edit_delete" />
+</LinearLayout>

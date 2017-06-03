@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:maxLevel="0" android:drawable="@drawable/enroll_image" />
+  <item android:maxLevel="1" android:drawable="@drawable/enroll_01" />
+  <item android:maxLevel="2" android:drawable="@drawable/enroll_02" />
+  <item android:maxLevel="3" android:drawable="@drawable/enroll_03" />
+  <item android:maxLevel="4" android:drawable="@drawable/enroll_04" />
+  <item android:maxLevel="5" android:drawable="@drawable/enroll_05" />
+  <item android:maxLevel="6" android:drawable="@drawable/enroll_06" />
+  <item android:maxLevel="7" android:drawable="@drawable/enroll_07" />
+  <item android:maxLevel="8" android:drawable="@drawable/enroll_08" />
+  <item android:maxLevel="9" android:drawable="@drawable/enroll_09" />
+  <item android:maxLevel="10" android:drawable="@drawable/enroll_10" />
+  <item android:maxLevel="11" android:drawable="@drawable/enroll_11" />
+  <item android:maxLevel="12" android:drawable="@drawable/enroll_12" />
+  <item android:maxLevel="13" android:drawable="@drawable/enroll_13" />
+  <item android:maxLevel="14" android:drawable="@drawable/enroll_14" />
+  <item android:maxLevel="15" android:drawable="@drawable/enroll_15" />
+  <item android:maxLevel="16" android:drawable="@drawable/enroll_16" />
+ </level-list>

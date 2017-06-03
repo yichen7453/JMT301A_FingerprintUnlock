@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JMT Fingerprint Unlock</string>
+    <string name="action_new">News</string>
+    <string name="description">Fingerprint Unlock allows you to use a fingerprint to unlock your device, instead of typing a password.</string>
+
+    <string name="service_name">JMT Fingerprint Unlock Service</string>
+    <string name="hello_world">bazinga!</string>
+    
+    <string name="enroll_activity_title">Register Fingerprint</string>
+    <string name="enroll_activity_tip">Place finger on sensor, lift it off, then repeat. Move finger upwards/downwards slightly between attempts.</string>
+    <string name="enroll_activity_tip1">Place your finger on the sensor then lift it off again.</string>
+    <string name="fp_edit_title_back">Back</string>
+    <string name="fp_edit_title">Fingerprint Edit</string>
+    <string name="fp_edit_rename">Change fingerprint name</string>
+    <string name="fp_edit_delete">Delete fingerprint</string>
+    
+    <string name="register_finger_title_back">Back</string>
+    <string name="register_finger_title">Fingerprint Manager</string>
+    <string name="register_toggle_text">Restart FingerprintUnlock</string>
+    <string name="register_finger_tip">You can register up to 5 fingerprints</string>
+    <string name="register_finger_botton">Register fingerprint ‧‧‧‧</string>
+    
+    <string name="fragment_title">Disclaimer</string>
+    <string name="fragment_message">In order for fingerprint recognition to function, your fingerprint information needs to be registered and stored in your device. After registering, you can use your fingerprint for the Fingerprint lock.  </string> 	
+ 	<string name="fragment_confirm">CONFIRM</string>
+ 	
+ 	<string name="end_title">Register Successfully</string>
+ 	<string name="complete">Complete</string>
+
+</resources>

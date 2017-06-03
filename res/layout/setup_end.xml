@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#eee" >
+	
+    <RelativeLayout 
+        android:id="@+id/end_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+         
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="@string/end_title" />
+        
+    </RelativeLayout>
+	
+	<TextView
+  	 	android:id="@+id/enroll_tip2"
+ 		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+   		android:layout_marginTop="10dp"
+		android:textSize="20sp"
+		android:textColor="#000"
+		android:text="" />
+ 	   
+	<LinearLayout 
+	    android:layout_width="fill_parent" 
+ 		android:layout_height="fill_parent" 	    
+ 		android:orientation="vertical"  
+  		android:background="#eee" 
+   		android:layout_marginTop="5dp"  >
+        	
+		<LinearLayout 
+   			android:layout_gravity="center" 
+   			android:orientation="horizontal" 
+     		android:background="#eee" 
+    		android:layout_width="wrap_content" 
+     		android:layout_height="wrap_content" 
+     		android:layout_marginTop="15dip" 
+     		android:layout_marginBottom="5dip">
+            	
+    		<ImageView 
+       			android:id="@+id/img1" 
+      			android:layout_width="match_parent" 
+           		android:layout_height="match_parent"
+         		android:src="@drawable/enroll_08"
+         		android:scaleType="matrix" 
+          		android:contentDescription="@string/hello_world" />
+           
+   		</LinearLayout>
+           	
+ 		<TextView 
+     		android:id="@+id/end_message1"
+     		android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+      		android:textSize="18sp" 
+       		android:textColor="#000" 
+       		android:layout_gravity="center"  
+      		android:layout_marginTop="15dp"
+      		android:text="" />
+ 		
+ 		<Button 
+     		android:id="@+id/btn_complete"
+     		android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+      		android:textSize="20sp" 
+       		android:textColor="#333" 
+       		android:layout_gravity="center"  
+      		android:layout_marginTop="20dp"
+      		android:text="@string/complete"
+      		android:background="@drawable/btn_style_white" />
+   	</LinearLayout>	    
+</LinearLayout>

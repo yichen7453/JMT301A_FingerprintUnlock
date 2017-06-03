@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="15dp"
+   	android:paddingLeft="15dp"
+    android:background="@drawable/btn_style_two_normal" >
+
+     <TextView
+        android:id="@+id/fragment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+    	android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/fragment_title"
+        android:textColor="#333"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+     
+    <TextView
+        android:id="@+id/fragment_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_title"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"      
+    	android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#333"
+        android:textSize="24sp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/fragment_message" />
+    
+    <TextView
+        android:id="@+id/fragment_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_message"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="@string/fragment_confirm"
+        android:textColor="#0066FF" /> 
+
+</RelativeLayout>
